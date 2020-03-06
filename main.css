@@ -1,0 +1,108 @@
+html, body{
+    margin: 0;
+}
+.homepage{
+    background: url("images/homepage.jpg") no-repeat;
+}
+.header{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.title{
+    font-family: 'Sigmar One';
+    color: rgb(255,216,0);
+    font-weight: lighter;
+    padding-left: 15%;
+}
+.maintitle{
+    padding-top: 20%;
+}
+.headertitle{
+    border: 5px solid white;
+    transition: border-width 0.6s linear;
+    margin: 0 20% 0 20%;
+    color: white;
+    font-size: 75px;
+}
+.headertitle:hover{
+    border: 8px solid white;
+}
+.sticky{
+    width: 100%;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+.fullnav a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+.fullnav{
+    padding-top: 30px;
+}
+.col-sm{
+    width: 50%;
+}
+h1{
+    font-family: Oswald;
+    text-align: center;
+    
+}
+.popup{
+    transform: translateX(-730px);
+}
+h3{
+    font-size: x-large;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    color: gray;
+}
+p{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: gray;
+}
+.section{
+    padding: 5% 20% 0 20%;
+    
+}
+.full-page{
+    height: 64%;
+    padding-top: 13%;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+}
+.footer{
+    margin-top: 10%;
+    height: 350px;
+    background-color: black;
+    padding: 2%;
+}
+.footer h2{
+    color: white;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+}
+.footer iframe{
+    float: right;
+}
+.contact-info{
+    float: left;
+}
+.contact-info p{
+    text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
